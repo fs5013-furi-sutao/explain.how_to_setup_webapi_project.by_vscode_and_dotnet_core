@@ -14,6 +14,7 @@ mkdir ./first.netcore.api
 作成したフォルダの中に入る。
 ```console
 cd ./first.netcore.api
+```
 
 ソリューションを作成する。
 ```console
