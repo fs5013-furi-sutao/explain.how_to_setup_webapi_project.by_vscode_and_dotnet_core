@@ -70,7 +70,7 @@ Ctr + Shift + D でデバッグペインを開く。
 メニューの [Run] - [Add Configuration...] を選択。デバッグ可能な種類の一覧から[.NET Core]を選択。
 
 ### launch.json.program の値の修正
-launch.json の内容を確認する。configurations の program プロパティの値に使われている 2 つのタグ、<insert-target-framework-here> と <insert-project-name-here> を解釈できないので、以下のように値を書き換える。
+launch.json の内容を確認する。configurations の program プロパティの値に使われている 2 つのタグ、<insert-target-framework-here> と <insert-project-name-here> を解釈できないので、以下のように値を書き換える。値は、実際のフォルダ構成を見て dll の場所を指定する。
 
 Berore:
 ```
